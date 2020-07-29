@@ -1,0 +1,9 @@
+AuthUserFile /www/.htaccess
+AuthGroupFile /dev/null
+AuthName "Entrez un mot de passe s'il vous plait."
+AuthType Basic
+
+order deny,allow
+deny from all
+allow from 192.168.1.
+Require valid-user
